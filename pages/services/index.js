@@ -29,7 +29,7 @@ const Services = () => {
               My Services <span className="text-accent">.</span>
             </motion.h2>
             <p className="mb-4 mx-w-[400px] mx-auto lg:mx-0 text-justify ">
-            "I specialize in crafting responsive websites, intuitive UI/UX designs, and tailored digital solutions that seamlessly blend creativity and technology. From web development using modern frameworks like React and Next.js to optimizing and maintaining digital products for speed and security, I am dedicated to transforming ideas into impactful, user-centered experiences.""
+            &quot;I specialize in crafting responsive websites, intuitive UI/UX designs, and tailored digital solutions that seamlessly blend creativity and technology. From web development using modern frameworks like React and Next.js to optimizing and maintaining digital products for speed and security, I am dedicated to transforming ideas into impactful, user-centered experiences.&quot;
             </p>
           </div>
 
