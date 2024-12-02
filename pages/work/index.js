@@ -29,10 +29,10 @@ const Work = () => {
               My Works <span className="text-accent">.</span>
             </motion.h2>
             <p className="mb-4 mx-w-[400px] mx-auto lg:mx-0 ">
-              "My portfolio showcases a collection of dynamic and responsive web
+              "&quot;My portfolio showcases a collection of dynamic and responsive web
               applications built using modern frameworks like Next.js, React,JS,
               and Tailwind CSS. My work reflects a passion for
-              crafting user-friendly and innovative digital experiences."
+              crafting user-friendly and innovative digital experiences.&quot;
             </p>
           </div>
 
