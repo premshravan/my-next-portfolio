@@ -130,10 +130,10 @@ const About = () => {
             <span className="text-accent">Possibilities.</span>
           </h2>
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-justify">
-            With an MBA in Finance and a passion for technology, I am on a
+           &quot; With an MBA in Finance and a passion for technology, I am on a
             journey to transition into the dynamic world of software
             development. Currently immersed in self-learning, I am honing my
-            skills to become a proficient MERN stack developer.
+            skills to become a proficient MERN stack developer.&quot;
           </p>
 
           {/* counters */}
