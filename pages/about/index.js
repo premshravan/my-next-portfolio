@@ -25,29 +25,29 @@ const aboutData = [
       {
         title: "FrontEnd Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          FaHtml5 ,
+          FaCss3 ,
+          FaJs ,
+          FaReact ,
+          SiNextdotjs ,
+          SiFramer ,
+          FaWordpress ,
         ],
       },
       {
         title: "BackEnd Development",
         icons: [
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          FaCss3,
+          FaJs ,
+          FaReact,
+          SiNextdotjs ,
+          SiFramer,
+          FaWordpress,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [FaFigma , SiAdobexd , SiAdobephotoshop ],
       },
     ],
   },
@@ -126,11 +126,11 @@ const About = () => {
         {/* Text */}
         <div className="flex-1 flex flex-col justify-center">
           <h2 className="h2">
-            "Turning Code into"{" "}
+          &quot;Turning Code into&quot; {" "}
             <span className="text-accent">Possibilities.</span>
           </h2>
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-justify">
-           &quot; With an MBA in Finance and a passion for technology, I am on a
+            &quot;With an MBA in Finance and a passion for technology, I am on a
             journey to transition into the dynamic world of software
             development. Currently immersed in self-learning, I am honing my
             skills to become a proficient MERN stack developer.&quot;
@@ -217,7 +217,11 @@ const About = () => {
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, iconIndex) => {
-                      return <div key={iconIndex} className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={iconIndex} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
